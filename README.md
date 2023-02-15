@@ -16,6 +16,11 @@ Hey there, This is a website that I designed where users can take a short quiz g
  - Open Trivia Database [https://opentdb.com]
 
 
+## Links
+
+ - Live Site URL: [https://quiziccal-game.netlify.app/]
+
+
 ## Installation
 
 To install this project, you need to have nodejs installed on your machine.

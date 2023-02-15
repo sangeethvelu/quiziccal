@@ -28,7 +28,7 @@ export default function App() {
   return (
     <div className="container">
       {!isStart && <div className="form-display-icon">
-        <img className="header-icon" src="/public/icons/settings.svg" alt="Settings Icon" onClick={handleShowForm}/>
+        <img className="header-icon" src="/public/settings.svg" alt="Settings Icon" onClick={handleShowForm}/>
       </div>}
       {isStart ? <Quiz apiData={apiData}/> : <Header quizStart={quizStart} handleData={handleApiData} showForm={showForm} handleShowForm={handleShowForm}/>}
     </div>
